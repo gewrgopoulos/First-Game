@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dxxt32thfueo3"]
+
+[ext_resource type="Texture2D" uid="uid://cojgj31g35loq" path="res://Sprites/miner.png" id="1_qa0ih"]
+[ext_resource type="Texture2D" uid="uid://colk8ps2dgcnk" path="res://Sprites/bitcoin32x32.png" id="2_y1lg8"]
+
+[node name="Sprite2D" type="Sprite2D"]
+modulate = Color(0.392157, 0.552941, 0.129412, 1)
+position = Vector2(1, 0)
+texture = ExtResource("1_qa0ih")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-1, 1)
+
+[node name="Bitcoin32x32" type="Sprite2D" parent="."]
+position = Vector2(-1, -25)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_y1lg8")
